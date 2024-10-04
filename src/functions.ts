@@ -6,7 +6,6 @@ let fn2: (param: string) => void = function () {
 
 }
 
-
 // 调用签名
 type SumFunction = {
     innerProperty: any; // 函数的属性

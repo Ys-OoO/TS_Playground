@@ -46,7 +46,7 @@ function printId(id: number | string) {
         console.log(id);
     }
 }
-// !联合类型 union 的工作原理就是 将所给类型的值进行联合组成的（交集）
+// !联合类型 的工作原理就是 将所给类型的值进行联合组成的（交集）
 interface Dog {
     name: string,
 }
